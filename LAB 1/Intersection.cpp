@@ -26,16 +26,27 @@ int main()
     for(i=0;i<3;i++){
         for(j=0;j<3;j++){
 
+if(arr1[i]==arr2[j]){
+   arr3[k]=arr1[i];
+   k++;
+   break;
 
 
-        }
+}
+           }
     }
+
+    cout<<endl;
+
+    cout<<"A n B= { ";
 
     for(i=0;i<k;i++){
 
-        cout<<"Element "<<i<<" :"<<arr3[i]<<endl;
+        cout<<arr3[i]<<" ";
 
     }
+
+    cout<<"}";
 
  return 0;
 }
